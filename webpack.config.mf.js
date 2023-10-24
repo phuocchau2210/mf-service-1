@@ -46,6 +46,7 @@ module.exports = {
       filename: "remoteEntry.js",
       exposes: {
         "./filterUni": "./src/bootstrap",
+        "./filterUniFunc": "./src/bootstrap",
       },
       shared: ["react", "react-dom"],
     }),
